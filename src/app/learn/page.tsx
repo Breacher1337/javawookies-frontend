@@ -9,22 +9,19 @@ export default function LearnPage() {
          and we strive to make that happen with every pastry and cookie we bake.
          <br/><br/>
          <div>
-
             This is a demo webapp made by a student as part of their requirements for their DSA subject.
             Members: Elaijah Sapla, James Berto, Chester Lauzon, Lyle Rivera
          </div>
-         
          </p>
       </div>
       <footer className="border-t text-center text-gray-500 py-6 my-6">
           &copy; 2025 JavaWookies. All rights reserved.
          </footer>
-         <>
       <Link className="text-white  bg-red-700 rounded-full py-2
                    px-6   
                    hover:bg-primary transition-shadow hover:shadow-md hover:shadow-black" href="/hero" >
                   Back 
-                  </Link></>
+                  </Link>
       </section>
     );
 }

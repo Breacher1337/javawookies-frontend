@@ -6,7 +6,6 @@ export default function Right() {
       viewBox="0 0 24 24"
       strokeWidth={1.0}
       stroke="currentColor"
-      className={className}
     >
       <path
         strokeLinecap="round"

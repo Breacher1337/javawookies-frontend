@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Checkout from "../icons/Checkout";
+import CheckoutIcon from "../icons/Checkout";
 
 export default function Footer() {
     return(
@@ -14,7 +14,7 @@ export default function Footer() {
             <Link className="text-black  bg-white rounded-full py-2
              px-6  flex gap-3 items-center text-center whitespace-nowrap border border-gray-950
              hover:bg-primary transition-shadow hover:shadow-md hover:shadow-black" href="/checkout" >
-            Check Out <Checkout />
+            Check Out <CheckoutIcon />
             </Link>
         </footer>
         </div>

@@ -20,7 +20,7 @@ import Footer from "../layout/Footer";
 import CategorySidebar from "../layout/Sidebar";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
-import CheckoutIcon from "@/icons/Checkout";
+import CheckoutIcon from "../icons/Checkout";
 
 export default function HomeMenu() {
   const router = useRouter();

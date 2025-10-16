@@ -1,5 +1,5 @@
 import Link from "next/link";
-import CheckoutIcon from "../icons/Checkout";
+import CheckoutIcon from "@/icons/Checkout";
 
 export default function Footer() {
     return(

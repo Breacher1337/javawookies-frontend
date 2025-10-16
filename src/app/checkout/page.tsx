@@ -6,6 +6,9 @@ export default function CheckoutPage() {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [message, setMessage] = useState("");
 
+  // 🔧 Use environment variable (set this in Netlify)
+  const API_BASE_URL = import.meta.env.API_BASE_URL || "http://localhost:8080/api";
+
   useEffect(() => {
     const stored = sessionStorage.getItem("cart");
     if (stored) setCart(JSON.parse(stored));
@@ -36,7 +39,7 @@ export default function CheckoutPage() {
     setMessage("Processing order...");
 
     try {
-      const res = await fetch("http://localhost:8080/api/orders", {
+      const res = await fetch(`${API_BASE_URL}/orders`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ items: cart, totalPrice }),

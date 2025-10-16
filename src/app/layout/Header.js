@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Cart } from "../icons/CartIcon";
+import Cart from "../icons/CartIcon";
 
 export default function Header() {
     return(

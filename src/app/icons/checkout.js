@@ -1,4 +1,4 @@
-export default function Checkout({ className = "w-6 h-6" }) {
+export default function Checkout() {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

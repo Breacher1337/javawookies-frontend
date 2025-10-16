@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import Right from "../icons/Right";
+import Right from "../icons/RightIcon";
 import Link from "next/link";
 
 

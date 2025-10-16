@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Cart from "../icons/Cart";
+import { Cart } from "../icons/CartIcon";
 
 export default function Header() {
     return(
@@ -14,7 +14,7 @@ export default function Header() {
       </nav>
       <nav className="flex gap-5 text-gray-950 text font-semibold items-center">
         <Link className="py-2 flex gap-3 rounded-full px-3 item-center border border-gray-950 transition-shadow
-            hover:shadow-md hover:shadow-gray-950"href="/cart"> <Cart /> </Link>
+             hover:shadow-md hover:shadow-gray-950"href="/cart"> <Cart/> </Link>
             
           </nav>
    </header>
